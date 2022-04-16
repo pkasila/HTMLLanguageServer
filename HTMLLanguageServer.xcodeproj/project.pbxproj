@@ -6,8 +6,14 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		047FCA12280AC0F40084EB0A /* vscode-html-languageserver in Resources */ = {isa = PBXBuildFile; fileRef = 047FCA11280AC0F30084EB0A /* vscode-html-languageserver */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		047FCA0A280AC0C70084EB0A /* HTMLLanguageServer.celsp */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTMLLanguageServer.celsp; sourceTree = BUILT_PRODUCTS_DIR; };
+		047FCA11280AC0F30084EB0A /* vscode-html-languageserver */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "vscode-html-languageserver"; sourceTree = "<group>"; };
+		047FCA13280AC1160084EB0A /* HTMLLanguageServer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "HTMLLanguageServer-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +30,8 @@
 		047FCA01280AC0C70084EB0A = {
 			isa = PBXGroup;
 			children = (
+				047FCA13280AC1160084EB0A /* HTMLLanguageServer-Info.plist */,
+				047FCA11280AC0F30084EB0A /* vscode-html-languageserver */,
 				047FCA0B280AC0C70084EB0A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,6 +101,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047FCA12280AC0F40084EB0A /* vscode-html-languageserver in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +236,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HTMLLanguageServer-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSPrincipalClass = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
@@ -246,6 +256,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HTMLLanguageServer-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSPrincipalClass = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
